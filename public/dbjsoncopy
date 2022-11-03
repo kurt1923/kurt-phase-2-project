@@ -1,0 +1,196 @@
+{
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Cybex Chest Press",
+        "image": "./images/chest/cybex2.jpg",
+        "bodypart": "Chest"
+      },
+      {
+        "id": 2,
+        "name": "Dumbell Incline",
+        "image": "./images/chest/dbinc.jpg",
+        "bodypart": "Chest"
+      },
+      {
+        "id": 3,
+        "name": "Pec Deck",
+        "image": "./images/chest/pecdeck.jpg",
+        "bodypart": "Chest"
+      },
+      {
+        "id": 4,
+        "name": "Hammer Decline",
+        "image": "./images/chest/hammerdecline.jpg",
+        "bodypart": "Chest"
+      },
+      {
+        "id": 5,
+        "name": "Lat Pulldown",
+        "image": "./images/back/latpulldown.jpg",
+        "bodypart": "Back"
+      },
+      {
+        "id": 6,
+        "name": "Bent Over Row",
+        "image": "./images/back/bentoverrow.jpg",
+        "bodypart": "Back"
+      },
+      {
+        "id": 7,
+        "name": "T Bar Row",
+        "image": "./images/back/tbarrow.jpg",
+        "bodypart": "back"
+      },
+      {
+        "id": 8,
+        "name": "Cable Pullover",
+        "image": "./images/back/cablepullover.jpg",
+        "bodypart": "Back"
+      },
+      {
+        "id": 9,
+        "name": "Cybex Chest Press",
+        "image": "./images/chest/cybex2.jpg",
+        "bodypart": "Biceps"
+      },
+      {
+        "id": 10,
+        "name": "Dumbell Incline",
+        "image": "./images/chest/dbinc.jpg",
+        "bodypart": "Biceps"
+      },
+      {
+        "id": 11,
+        "name": "Pec Deck",
+        "image": "./images/chest/pecdeck.jpg",
+        "bodypart": "Biceps"
+      },
+      {
+        "id": 12,
+        "name": "Hammer Decline",
+        "image": "./images/chest/hammerdecline.jpg",
+        "bodypart": "Biceps"
+      },
+      {
+        "id": 13,
+        "name": "Lat Pulldown",
+        "image": "./images/back/latpulldown.jpg",
+        "bodypart": "Triceps"
+      },
+      {
+        "id": 14,
+        "name": "Bent Over Row",
+        "image": "./images/back/bentoverrow.jpg",
+        "bodypart": "Triceps"
+      },
+      {
+        "id": 15,
+        "name": "T Bar Row",
+        "image": "./images/back/tbarrow.jpg",
+        "bodypart": "Triceps"
+      },
+      {
+        "id": 16,
+        "name": "Cable Pullover",
+        "image": "./images/back/cablepullover.jpg",
+        "bodypart": "Triceps"
+      },
+      {
+        "id": 1,
+        "name": "Cybex Chest Press",
+        "image": "./images/chest/cybex2.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 2,
+        "name": "Dumbell Incline",
+        "image": "./images/chest/dbinc.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 3,
+        "name": "Pec Deck",
+        "image": "./images/chest/pecdeck.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 4,
+        "name": "Hammer Decline",
+        "image": "./images/chest/hammerdecline.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 5,
+        "name": "Lat Pulldown",
+        "image": "./images/back/latpulldown.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 6,
+        "name": "Bent Over Row",
+        "image": "./images/back/bentoverrow.jpg",
+        "bodypart": "Shoulders"
+      },
+      {
+        "id": 7,
+        "name": "T Bar Row",
+        "image": "./images/back/tbarrow.jpg",
+        "bodypart": "Hamstrings"
+      },
+      {
+        "id": 8,
+        "name": "Cable Pullover",
+        "image": "./images/back/cablepullover.jpg",
+        "bodypart": "Hamstrings"
+      },
+      {
+        "id": 9,
+        "name": "Cybex Chest Press",
+        "image": "./images/chest/cybex2.jpg",
+        "bodypart": "Hamstrings"
+      },
+      {
+        "id": 10,
+        "name": "Dumbell Incline",
+        "image": "./images/chest/dbinc.jpg",
+        "bodypart": "Hamstrings"
+      },
+      {
+        "id": 11,
+        "name": "Pec Deck",
+        "image": "./images/chest/pecdeck.jpg",
+        "bodypart": "Quads"
+      },
+      {
+        "id": 12,
+        "name": "Hammer Decline",
+        "image": "./images/chest/hammerdecline.jpg",
+        "bodypart": "Quads"
+      },
+      {
+        "id": 13,
+        "name": "Lat Pulldown",
+        "image": "./images/back/latpulldown.jpg",
+        "bodypart": "Quads"
+      },
+      {
+        "id": 14,
+        "name": "Bent Over Row",
+        "image": "./images/back/bentoverrow.jpg",
+        "bodypart": "Quads"
+      },
+      {
+        "id": 15,
+        "name": "T Bar Row",
+        "image": "./images/back/tbarrow.jpg",
+        "bodypart": "Calves"
+      },
+      {
+        "id": 16,
+        "name": "Cable Pullover",
+        "image": "./images/back/cablepullover.jpg",
+        "bodypart": "Calves"
+      }
+    ]
+  }

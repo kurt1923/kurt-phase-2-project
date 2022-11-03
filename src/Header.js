@@ -5,8 +5,8 @@ function Header() {
     return (
         <header>
             <h1>
-                <img class="header" src="./images/brosplitspro.png" alt="Logo" />
-                <img class="logo" src="./images/logo.jpg" alt="Logo" />
+                <img className="header" src="./images/brosplitspro.png" alt="Logo" />
+                <img className="logo" src="./images/logo.jpg" alt="Logo" />
             </h1>
         </header>
     );
