@@ -6,6 +6,7 @@ import Search from './Search'
 function ExercisesPage() {
   const [exercisesArray, setExercisesArray] = useState([])
   const [searchTerm, setSearchTerm] = useState("")
+  const [filterBy, setFilterBy] = useState("")
 
   useEffect(() => {
     fetch("http://localhost:3000/exercises")
@@ -15,7 +16,9 @@ function ExercisesPage() {
       })
   }, []);
 
-  console.log(exercisesArray)
+
+  const exercisesToDisplay = exercisesArray.filter((e) =>
+    e.name.toLowerCase().includes(searchTerm.toLowerCase()))
 
   function handleAddExercise(newExercise) {
     const updateExercises = [...exercisesArray, newExercise]
@@ -27,14 +30,15 @@ function ExercisesPage() {
     setExercisesArray(updateExercises)
   }
 
-  const exercisesToDisplay= exercisesArray.filter((e) => 
-  e.name.toLowerCase().includes(searchTerm.toLowerCase()))
+const filteredExercises = filterBy ==="all" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart.toLowerCase() === filterBy)
+
+
 
   return (
     <main>
       <NewExerciseForm handleAddExercise={handleAddExercise} />
-      <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <ExerciseList exercisesArray={exercisesToDisplay} handleDeleteExercise={handleDeleteExercise} />
+      <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} filterBy={filterBy} setFilterBy={setFilterBy} />
+      <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} />
 
     </main>
   )

@@ -4,193 +4,225 @@
       "id": 1,
       "name": "Cybex Chest Press",
       "image": "./images/chest/cybex2.jpg",
-      "bodypart": "Chest"
+      "bodypart": "Chest",
+      "isFavorited":false
     },
     {
       "id": 2,
       "name": "Dumbell Incline",
       "image": "./images/chest/dbinc.jpg",
-      "bodypart": "Chest"
+      "bodypart": "Chest",
+      "isFavorited":false
     },
     {
       "id": 3,
       "name": "Pec Deck",
       "image": "./images/chest/pecdeck.jpg",
-      "bodypart": "Chest"
+      "bodypart": "Chest",
+      "isFavorited":false
     },
     {
       "id": 4,
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
-      "bodypart": "Chest"
+      "bodypart": "Chest",
+      "isFavorited":false
     },
     {
       "id": 5,
       "name": "Lat Pulldown",
       "image": "./images/back/latpulldown.jpg",
-      "bodypart": "Back"
+      "bodypart": "Back",
+      "isFavorited":false
     },
     {
       "id": 6,
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
-      "bodypart": "Back"
+      "bodypart": "Back",
+      "isFavorited":false
     },
     {
       "id": 7,
       "name": "T Bar Row",
       "image": "./images/back/tbarrow.jpg",
-      "bodypart": "back"
+      "bodypart": "back",
+      "isFavorited":false
     },
     {
       "id": 8,
       "name": "Cable Pullover",
       "image": "./images/back/cablepullover.jpg",
-      "bodypart": "Back"
+      "bodypart": "Back",
+      "isFavorited":false
     },
     {
       "id": 9,
       "name": "Cybex Chest Press",
       "image": "./images/chest/cybex2.jpg",
-      "bodypart": "Biceps"
+      "bodypart": "Biceps",
+      "isFavorited":false
     },
     {
       "id": 10,
       "name": "Dumbell Incline",
       "image": "./images/chest/dbinc.jpg",
-      "bodypart": "Biceps"
+      "bodypart": "Biceps",
+      "isFavorited":false
     },
     {
       "id": 11,
       "name": "Pec Deck",
       "image": "./images/chest/pecdeck.jpg",
-      "bodypart": "Biceps"
+      "bodypart": "Biceps",
+      "isFavorited":false
     },
     {
       "id": 12,
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
-      "bodypart": "Biceps"
+      "bodypart": "Biceps",
+      "isFavorited":false
     },
     {
       "id": 13,
       "name": "Lat Pulldown",
       "image": "./images/back/latpulldown.jpg",
-      "bodypart": "Triceps"
+      "bodypart": "Triceps",
+      "isFavorited":false
     },
     {
       "id": 14,
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
-      "bodypart": "Triceps"
+      "bodypart": "Triceps",
+      "isFavorited":false
     },
     {
       "id": 15,
       "name": "T Bar Row",
       "image": "./images/back/tbarrow.jpg",
-      "bodypart": "Triceps"
+      "bodypart": "Triceps",
+      "isFavorited":false
     },
     {
       "id": 16,
       "name": "Cable Pullover",
       "image": "./images/back/cablepullover.jpg",
-      "bodypart": "Triceps"
+      "bodypart": "Triceps",
+      "isFavorited":false
     },
     {
       "id": 17,
       "name": "Cybex Chest Press",
       "image": "./images/chest/cybex2.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 18,
       "name": "Dumbell Incline",
       "image": "./images/chest/dbinc.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 19,
       "name": "Pec Deck",
       "image": "./images/chest/pecdeck.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 20,
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 21,
       "name": "Lat Pulldown",
       "image": "./images/back/latpulldown.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 22,
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
-      "bodypart": "Shoulders"
+      "bodypart": "Shoulders",
+      "isFavorited":false
     },
     {
       "id": 23,
       "name": "T Bar Row",
       "image": "./images/back/tbarrow.jpg",
-      "bodypart": "Hamstrings"
+      "bodypart": "Hamstrings",
+      "isFavorited":false
     },
     {
       "id": 24,
       "name": "Cable Pullover",
       "image": "./images/back/cablepullover.jpg",
-      "bodypart": "Hamstrings"
+      "bodypart": "Hamstrings",
+      "isFavorited":false
     },
     {
       "id": 25,
       "name": "Cybex Chest Press",
       "image": "./images/chest/cybex2.jpg",
-      "bodypart": "Hamstrings"
+      "bodypart": "Hamstrings",
+      "isFavorited":false
     },
     {
       "id": 26,
       "name": "Dumbell Incline",
       "image": "./images/chest/dbinc.jpg",
-      "bodypart": "Hamstrings"
+      "bodypart": "Hamstrings",
+      "isFavorited":false
     },
     {
       "id": 27,
       "name": "Pec Deck",
       "image": "./images/chest/pecdeck.jpg",
-      "bodypart": "Quads"
+      "bodypart": "Quads",
+      "isFavorited":false
     },
     {
       "id": 28,
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
-      "bodypart": "Quads"
+      "bodypart": "Quads",
+      "isFavorited":false
     },
     {
       "id": 29,
       "name": "Lat Pulldown",
       "image": "./images/back/latpulldown.jpg",
-      "bodypart": "Quads"
+      "bodypart": "Quads",
+      "isFavorited":false
     },
     {
       "id": 30,
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
-      "bodypart": "Quads"
+      "bodypart": "Quads",
+      "isFavorited":false
     },
     {
       "id": 31,
       "name": "T Bar Row",
       "image": "./images/back/tbarrow.jpg",
-      "bodypart": "Calves"
+      "bodypart": "Calves",
+      "isFavorited":false
     },
     {
       "id": 32,
       "name": "Cable Pullover",
       "image": "./images/back/cablepullover.jpg",
-      "bodypart": "Calves"
+      "bodypart": "Calves",
+      "isFavorited":false
     }
   ]
 }

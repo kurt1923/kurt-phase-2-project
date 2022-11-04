@@ -16,9 +16,9 @@ function ExerciseCard({ exercise, onDeleteExercise }) {
             <img src={image} alt={name} />
             <h4>{name}</h4>
             <p>Body Part: {bodypart}</p>
-            <button>More Info</button>
-            <br />
-            <button onClick={onClickDelete}>Delete</button>
+            <button className='cardbtn'>Video</button>
+            
+            <button className='cardbtn' onClick={onClickDelete}>Delete</button>
 
         </li>
     );

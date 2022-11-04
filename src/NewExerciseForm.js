@@ -50,8 +50,6 @@ function NewExerciseForm({handleAddExercise}) {
               onChange={(e) => setBodyPart(e.target.value)}
 />
             <button className='form' type="submit">Add Exercise</button>
-            <p></p>
-            <button className='form' type="submit">Add Info</button>
           </form>
         </div>
       );
