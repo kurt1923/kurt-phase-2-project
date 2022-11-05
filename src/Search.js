@@ -17,14 +17,14 @@ function Search({ searchTerm, setSearchTerm, setFilterBy, filterBy }) {
             </div>
             <div className='select' >
                 <select className="Filter" value={filterBy} onChange={handleFilterChange}>
-                <option value="all">Select Muscle</option>
-                    <option value="back">Back</option>
-                    <option value="biceps">Biceps</option>
-                    <option value="calves">Calves</option>
-                    <option value="chest">Chest</option>
-                    <option value="hamstrings">Hamstrings</option>
-                    <option value="quads">Quads</option>
-                    <option value="triceps">Triceps</option>
+                <option value="">Select Muscle</option>
+                    <option value="Back">Back</option>
+                    <option value="Biceps">Biceps</option>
+                    <option value="Calves">Calves</option>
+                    <option value="Chest">Chest</option>
+                    <option value="Hamstrings">Hamstrings</option>
+                    <option value="Quads">Quads</option>
+                    <option value="Triceps">Triceps</option>
                 </select>
             </div>
         </div>

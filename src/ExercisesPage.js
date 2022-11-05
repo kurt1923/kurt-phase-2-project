@@ -29,8 +29,12 @@ function ExercisesPage() {
     const updateExercises = exercisesArray.filter((e) => e.id !== id)
     setExercisesArray(updateExercises)
   }
+  // function handlefavorites(id){
+  //   const updateExercises = exercisesArray.map((e) => {
+  //     return e.id === id ? {} })
+  // }
 
-const filteredExercises = filterBy ==="all" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart.toLowerCase() === filterBy)
+  const filteredExercises = filterBy === "" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart === filterBy)
 
 
 
