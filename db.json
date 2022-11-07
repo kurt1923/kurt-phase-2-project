@@ -223,20 +223,6 @@
       "image": "./images/back/cablepullover.jpg",
       "bodypart": "Calves",
       "isFavorited": false
-    },
-    {
-      "name": "ssdfbsdfb",
-      "image": "dsfbsdfb",
-      "bodyPart": "dsfbdfb",
-      "id": 34,
-      "isFavorited": true
-    },
-    {
-      "name": "sdsds",
-      "image": "dssds",
-      "bodyPart": "dsds",
-      "isFavorited": true,
-      "id": 36
     }
   ]
 }

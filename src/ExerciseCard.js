@@ -1,10 +1,11 @@
-import React from 'react'
+import react from 'react'
 import image1 from "./darkarm.png"
 import image2 from "./lightarm.jpg"
 
 function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
 
     const { image, name, bodypart, id, isFavorited } = exercise
+    
 
     function onClickDelete() {
         fetch(`http://localhost:3000/exercises/${id}`, {
@@ -22,8 +23,7 @@ function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
             body: JSON.stringify({isFavorited: !isFavorited})
         })
             .then((r) => r.json())
-            .then(handleFavorites(exercise.id, exercise.isFavorited));
-
+            .then(handleFavorites);
     }
 
     return (

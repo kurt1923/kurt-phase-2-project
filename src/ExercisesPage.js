@@ -17,16 +17,11 @@ function ExercisesPage() {
       })
   }, []);
 
-  function handleFavorites(id, isFavorited){
-    const updateExercises = exercisesArray.map((e) => 
-    e.id === id ? {...e, isFavorited} : e)
-    setExercisesArray(updateExercises)
-  }
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
     e.name.toLowerCase().includes(searchTerm.toLowerCase()))
 
-
+  const filteredExercises = filterBy === "" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart === filterBy)
 
   function handleAddExercise(newExercise) {
     const updateExercises = [...exercisesArray, newExercise]
@@ -37,9 +32,12 @@ function ExercisesPage() {
     const updateExercises = exercisesArray.filter((e) => e.id !== id)
     setExercisesArray(updateExercises)
   }
-  
-  const filteredExercises = filterBy === "" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart === filterBy)
 
+  function handleFavorites(updateExercise) {
+    const updateExercises = exercisesArray.map((e) =>
+      e.id === updateExercise.id ? updateExercise : e)
+    setExercisesArray(updateExercises)
+  }
 
 
   return (
