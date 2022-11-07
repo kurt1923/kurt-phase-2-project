@@ -16,6 +16,11 @@ function ExercisesPage() {
       })
   }, []);
 
+  function handleFavorites(id, isFavorited){
+    const updateExercises = exercisesArray.map((e) => 
+    e.id === id ? {...e, isFavorited} : e)
+    setExercisesArray(updateExercises)
+  }
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
     e.name.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -42,7 +47,7 @@ function ExercisesPage() {
     <main>
       <NewExerciseForm handleAddExercise={handleAddExercise} />
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} filterBy={filterBy} setFilterBy={setFilterBy} />
-      <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} />
+      <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} handleFavorites={handleFavorites} />
 
     </main>
   )

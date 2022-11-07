@@ -1,7 +1,7 @@
 import React from "react";
 import ExerciseCard from "./ExerciseCard";
 
-function ExerciseList({ exercisesArray, handleDeleteExercise }) {
+function ExerciseList({ exercisesArray, handleDeleteExercise, handleFavorites }) {
 
   const exerciseCards = exercisesArray
     .map((exercise) => (
@@ -9,6 +9,7 @@ function ExerciseList({ exercisesArray, handleDeleteExercise }) {
         key={exercise.id}
         exercise={exercise}
         onDeleteExercise={handleDeleteExercise}
+        handleFavorites={handleFavorites}
         // onUpdateexercise={onUpdateexercise}
       />
     ))

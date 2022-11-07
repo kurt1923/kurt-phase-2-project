@@ -9,9 +9,16 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  
 }
 
 h2 {
@@ -20,7 +27,7 @@ h2 {
 
 button {
   padding: 0.25rem 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   border: none;
   cursor: pointer;
   font-weight: 655;
@@ -28,7 +35,7 @@ button {
 
 button.form {
   border: 2px solid rgb(6, 6, 6);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Roboto", sans-serif;
 }
 
 button.primary {
@@ -119,7 +126,7 @@ input:focus {
 .card {
   margin: 1rem;
   border: 5px solid rgb(34, 34, 34);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   padding-bottom: 1%;
   padding-top: 0%;
@@ -224,7 +231,7 @@ select {
 }
 
 option {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -244,7 +251,7 @@ option {
   background-color: white;
   border: thin solid rgb(98, 1, 1);
   border-radius: 7px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   align-content: center;
   line-height: .9em;
   max-width: 27%;
@@ -264,4 +271,49 @@ button.emoji-button-favorite{
   background-color: black;
   color: white;
   width: 35%;
+}
+.navigationWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  overflow: hidden;
+  width: 1130px;
+  padding-bottom: 50px;  
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  
+  
+}
+  .navli {
+    opacity: 1;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding-right: 60px
+    
+    ;
+  }
+
+.logoWrapper {
+  display: flex;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+.nav:hover {
+  color: #ea4f4c;
 }

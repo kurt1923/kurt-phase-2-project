@@ -225,10 +225,14 @@
       "isFavorited": false
     },
     {
-      "name": "Kurt Vermillion",
-      "image": "sdfsdf",
+      "name": "booman",
+      "image": "buzz",
       "bodyPart": "asdadad",
-      "id": 33
+      "id": 33,
+      "isFavorited": true,
+      "exercise": {
+        "isFavorited": true
+      }
     }
   ]
 }
