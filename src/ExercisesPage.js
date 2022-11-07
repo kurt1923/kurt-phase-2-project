@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NewExerciseForm from './NewExerciseForm'
 import ExerciseList from './ExerciseList.js'
 import Search from './Search'
+import Favorites from './Favorites'
 
 function ExercisesPage() {
   const [exercisesArray, setExercisesArray] = useState([])
@@ -25,6 +26,8 @@ function ExercisesPage() {
   const exercisesToDisplay = exercisesArray.filter((e) =>
     e.name.toLowerCase().includes(searchTerm.toLowerCase()))
 
+
+
   function handleAddExercise(newExercise) {
     const updateExercises = [...exercisesArray, newExercise]
     setExercisesArray(updateExercises)
@@ -34,11 +37,7 @@ function ExercisesPage() {
     const updateExercises = exercisesArray.filter((e) => e.id !== id)
     setExercisesArray(updateExercises)
   }
-  // function handlefavorites(id){
-  //   const updateExercises = exercisesArray.map((e) => {
-  //     return e.id === id ? {} })
-  // }
-
+  
   const filteredExercises = filterBy === "" ? exercisesToDisplay : exercisesToDisplay.filter((e) => e.bodypart === filterBy)
 
 
@@ -48,7 +47,6 @@ function ExercisesPage() {
       <NewExerciseForm handleAddExercise={handleAddExercise} />
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} filterBy={filterBy} setFilterBy={setFilterBy} />
       <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} handleFavorites={handleFavorites} />
-
     </main>
   )
 }

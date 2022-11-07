@@ -35,9 +35,9 @@ function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
             <button className='cardbtn' onClick={onClickDelete}>Delete</button>
             <div className="favorites" >
                 {isFavorited ? (
-                    <button onClick={onClickFavorite} className='emoji-button-favorite-active'><img src={image2} /></button>
+                    <button onClick={onClickFavorite} className='emoji-button-favorite-active'><img src={image1} /></button>
                 ) : (
-                    <button onClick={onClickFavorite} className='emoji-button-favorite'><img src={image1} /></button>
+                    <button onClick={onClickFavorite} className='emoji-button-favorite'><img src={image2} /></button>
                 )}
             </div>
         </li>

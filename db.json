@@ -225,14 +225,18 @@
       "isFavorited": false
     },
     {
-      "name": "booman",
-      "image": "buzz",
-      "bodyPart": "asdadad",
-      "id": 33,
+      "name": "ssdfbsdfb",
+      "image": "dsfbsdfb",
+      "bodyPart": "dsfbdfb",
+      "id": 34,
+      "isFavorited": true
+    },
+    {
+      "name": "sdsds",
+      "image": "dssds",
+      "bodyPart": "dsds",
       "isFavorited": true,
-      "exercise": {
-        "isFavorited": true
-      }
+      "id": 36
     }
   ]
 }

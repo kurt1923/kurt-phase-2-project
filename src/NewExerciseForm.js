@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
-function NewExerciseForm({handleAddExercise}) {
-  const [name, setName] =useState("")
-  const [image, setImage] =useState("")
-  const [bodyPart, setBodyPart] =useState("")  
-  
-  function handleSubmit(e){
-    const formData = {name, image, bodyPart}
+function NewExerciseForm({ handleAddExercise }) {
+  const [name, setName] = useState("")
+  const [image, setImage] = useState("")
+  const [bodyPart, setBodyPart] = useState("")
+  const [isFavorited, setIsFavorited] = useState("false")
+
+  function handleSubmit(e) {
+    const formData = { name, image, bodyPart, isFavorited}
     e.preventDefault()
     fetch("http://localhost:3000/exercises", {
       method: "POST",
@@ -15,44 +16,44 @@ function NewExerciseForm({handleAddExercise}) {
       },
       body: JSON.stringify(formData),
     })
-    .then((r) => r.json())
-    .then((newExercise) => {
-      handleAddExercise(newExercise)
-      setName("")
-      setImage("")
-      setBodyPart("")
-    })
+      .then((r) => r.json())
+      .then((newExercise) => {
+        handleAddExercise(newExercise)
+        setName("")
+        setImage("")
+        setBodyPart("")
+      })
   }
-    
+
   return (
-        <div className="new-exercises-form">
-          <h2>New Exercise</h2>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Exercise name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-/>
-            <input
-              type="text"
-              name="image"
-              placeholder="Image URL"
-              value={image}
-              onChange={(e) => setImage(e.target.value)}
-/>
-            <input
-              type="text"
-              name="body part"
-              placeholder="Body Part"
-              value={bodyPart}
-              onChange={(e) => setBodyPart(e.target.value)}
-/>
-            <button className='form' type="submit">Add Exercise</button>
-          </form>
-        </div>
-      );
-    }
+    <div className="new-exercises-form">
+      <h2>New Exercise</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="name"
+          placeholder="Exercise name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="text"
+          name="image"
+          placeholder="Image URL"
+          value={image}
+          onChange={(e) => setImage(e.target.value)}
+        />
+        <input
+          type="text"
+          name="body part"
+          placeholder="Body Part"
+          value={bodyPart}
+          onChange={(e) => setBodyPart(e.target.value)}
+        />
+        <button className='form' type="submit">Add Exercise</button>
+      </form>
+    </div>
+  );
+}
 
 export default NewExerciseForm

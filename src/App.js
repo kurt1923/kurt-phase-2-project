@@ -4,6 +4,7 @@ import Header from "./Header";
 import ExercisesPage from "./ExercisesPage";
 import Home from "./Home";
 import NavBar from "./NavBar"
+import Favorites from "./Favorites";
 
 function App() {
   
@@ -16,7 +17,8 @@ function App() {
       <NavBar  />      
       <Routes>
         <Route path="/Home" element={<Home />} />        
-        <Route path= "/ExercisesPage" element={<ExercisesPage />} />        
+        <Route path= "/ExercisesPage" element={<ExercisesPage />} />  
+        <Route path= "/Favorites" element={<Favorites />} />       
       </Routes>      
     </div>
   );
