@@ -157,28 +157,28 @@
     {
       "id": 23,
       "name": "RDL",
-      "image": "./images/back/tbarrow.jpg",
+      "image": "./images/ham/rdl.jpg",
       "bodypart": "Hamstrings",
       "isFavorited": false
     },
     {
       "id": 24,
       "name": "Lying Leg Raise",
-      "image": "./images/back/cablepullover.jpg",
+      "image": "./images/ham/lying.jpg",
       "bodypart": "Hamstrings",
       "isFavorited": false
     },
     {
       "id": 25,
-      "name": "Standing Leg Raise",
-      "image": "./images/chest/cybex2.jpg",
+      "name": "Seated Leg Raise",
+      "image": "./images/ham/std.jpg",
       "bodypart": "Hamstrings",
       "isFavorited": false
     },
     {
       "id": 26,
       "name": "Glute Ham Raise",
-      "image": "./images/chest/dbinc.jpg",
+      "image": "./images/ham/GH.jpg",
       "bodypart": "Hamstrings",
       "isFavorited": false
     },
