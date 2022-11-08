@@ -18,7 +18,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  
+
 }
 
 h2 {
@@ -199,7 +199,7 @@ select {
   font: inherit;
   line-height: .9em;
   padding: 0.5em 3.5em 0.5em 1em;
-  
+
 
   /* reset */
 
@@ -232,19 +232,22 @@ option {
   font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container {
   display: inline-block;
   vertical-align: middle;
 }
-.search-icon{
+
+.search-icon {
   position: absolute;
   top: 40.2%;
   right: 90%
 }
-.search{
+
+.search {
   background: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K") left no-repeat;
   background-position: 7px 7px;
 }
+
 .cardbtn {
   background-color: white;
   border: thin solid rgb(98, 1, 1);
@@ -256,20 +259,24 @@ option {
   padding: 0.5em 3.5em 0.5em 1em;
   margin: 2%;
 }
-.cardbtn:hover{
+
+.cardbtn:hover {
   background-color: rgb(59, 58, 58);
 }
-button.emoji-button-favorite-active{
+
+button.emoji-button-favorite-active {
   background-color: black;
   color: #b20404;
-  font-size: xx-large ;
+  font-size: xx-large;
   width: 35%;
 }
-button.emoji-button-favorite{
+
+button.emoji-button-favorite {
   background-color: black;
   color: white;
   width: 35%;
 }
+
 .navigationWrapper {
   position: relative;
   display: flex;
@@ -281,20 +288,22 @@ button.emoji-button-favorite{
   text-transform: uppercase;
   overflow: hidden;
   width: 1130px;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
 }
+
 .navigation {
   display: flex;
   list-style-type: none;
 }
-  .navli {
-    opacity: 1;
-    list-style-type: none;
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    padding-right: 60px;
-  }
+
+.navli {
+  opacity: 1;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  padding-right: 60px;
+}
 
 .logoWrapper {
   display: flex;
@@ -309,9 +318,11 @@ button.emoji-button-favorite{
   color: rgb(175, 2, 2);
   font-weight: bold;
 }
+
 .nav:hover {
   color: white;
 }
+
 .homeinfo {
   text-indent: 25px;
   letter-spacing: .5px;
@@ -321,9 +332,11 @@ button.emoji-button-favorite{
   margin-top: 30px;
   line-height: 150%;
 }
+
 .redSpan {
   color: #b20404;
 }
+
 .exdiv {
   margin-left: 165px;
   margin-top: 20px;
@@ -341,6 +354,7 @@ button.emoji-button-favorite{
   background-blend-mode: multiply;
   background-color: #f80606;
 }
+
 .exdiv2 {
   margin-left: 165px;
   margin-top: 50px;
@@ -358,6 +372,7 @@ button.emoji-button-favorite{
   background-blend-mode: multiply;
   background-color: #a20606;
 }
+
 .exdiv2 {
   margin-left: 165px;
   margin-top: 50px;
@@ -375,6 +390,7 @@ button.emoji-button-favorite{
   background-blend-mode: multiply;
   background-color: #a20606;
 }
+
 .exdiv3 {
   margin-left: 165px;
   margin-top: 50px;
@@ -392,6 +408,7 @@ button.emoji-button-favorite{
   background-blend-mode: multiply;
   background-color: #8c0404;
 }
+
 .exdiv4 {
   margin-left: 165px;
   margin-top: 50px;

@@ -4,18 +4,10 @@ import ExerciseList from './ExerciseList.js'
 import Search from './Search'
 
 
-function ExercisesPage() {
-  const [exercisesArray, setExercisesArray] = useState([])
+function ExercisesPage({ exercisesArray, setExercisesArray }) {
   const [searchTerm, setSearchTerm] = useState("")
   const [filterBy, setFilterBy] = useState("")
 
-  useEffect(() => {
-    fetch("http://localhost:3000/exercises")
-      .then((r) => r.json())
-      .then(exercisesArray => {
-        setExercisesArray(exercisesArray)
-      })
-  }, []);
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
     e.name.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -37,7 +29,6 @@ function ExercisesPage() {
       e.id === updateExercise.id ? updateExercise : e)
     setExercisesArray(updateExercises)
   }
-
 
   return (
     <main>

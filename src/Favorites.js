@@ -1,19 +1,10 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import FavoritesList from "./FavoritesList"
 
-function Favorites() {
-    const [exercisesArray, setExercisesArray] = useState([])
+function Favorites({ exercisesArray }) {
 
-    useEffect(() => {
-        fetch("http://localhost:3000/exercises")
-            .then((r) => r.json())
-            .then(exercisesArray => {
-                setExercisesArray(exercisesArray)
-            })
-    }, []);
-
-  const favoritesToDisplay = exercisesArray.filter((e) => 
-  e.isFavorited === true)
+    const favoritesToDisplay = exercisesArray.filter((e) =>
+        e.isFavorited === true)
 
     return (
         <div>

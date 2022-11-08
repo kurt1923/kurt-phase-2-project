@@ -10,10 +10,9 @@ function ExerciseList({ exercisesArray, handleDeleteExercise, handleFavorites })
         exercise={exercise}
         onDeleteExercise={handleDeleteExercise}
         handleFavorites={handleFavorites}
-        // onUpdateexercise={onUpdateexercise}
       />
     ))
-    
+
   return (
     <ul className="cards">{exerciseCards}</ul>
   );

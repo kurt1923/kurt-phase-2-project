@@ -5,7 +5,7 @@ import image2 from "./srcPics/lightarm.jpg"
 function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
 
     const { image, name, bodypart, id, isFavorited } = exercise
-    
+
 
     function onClickDelete() {
         fetch(`http://localhost:3000/exercises/${id}`, {
@@ -20,10 +20,10 @@ function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({isFavorited: !isFavorited})
+            body: JSON.stringify({ isFavorited: !isFavorited })
         })
             .then((r) => r.json())
-            .then(handleFavorites);
+            .then(handleFavorites)
     }
 
     return (

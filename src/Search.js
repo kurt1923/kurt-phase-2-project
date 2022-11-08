@@ -24,6 +24,7 @@ function Search({ searchTerm, setSearchTerm, setFilterBy, filterBy }) {
                     <option value="Chest">Chest</option>
                     <option value="Hamstrings">Hamstrings</option>
                     <option value="Quads">Quads</option>
+                    <option value="Shoulders">Shoulders</option>
                     <option value="Triceps">Triceps</option>
                 </select>
             </div>
