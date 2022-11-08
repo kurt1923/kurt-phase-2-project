@@ -4,10 +4,10 @@ function NewExerciseForm({ handleAddExercise }) {
   const [name, setName] = useState("")
   const [image, setImage] = useState("")
   const [bodyPart, setBodyPart] = useState("")
-  const [isFavorited, setIsFavorited] = useState("false")
+
 
   function handleSubmit(e) {
-    const formData = { name, image, bodyPart, isFavorited}
+    const formData = { name, image, bodyPart}
     e.preventDefault()
     fetch("http://localhost:3000/exercises", {
       method: "POST",

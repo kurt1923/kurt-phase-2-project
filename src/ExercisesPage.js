@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NewExerciseForm from './NewExerciseForm'
 import ExerciseList from './ExerciseList.js'
 import Search from './Search'
-import Favorites from './Favorites'
+
 
 function ExercisesPage() {
   const [exercisesArray, setExercisesArray] = useState([])
@@ -16,7 +16,6 @@ function ExercisesPage() {
         setExercisesArray(exercisesArray)
       })
   }, []);
-
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
     e.name.toLowerCase().includes(searchTerm.toLowerCase()))

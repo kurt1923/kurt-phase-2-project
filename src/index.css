@@ -207,8 +207,6 @@ select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 
@@ -218,7 +216,7 @@ select {
   background-image:
     linear-gradient(45deg, transparent 50%, rgb(245, 243, 243) 50%),
     linear-gradient(135deg, rgb(249, 247, 247) 50%, transparent 50%),
-    linear-gradient(to right, rgb(76, 74, 74), rgb(67, 66, 66));
+    linear-gradient(to right, rgb(39, 38, 38), rgb(9, 9, 9));
   background-position:
     calc(100% - 20px) calc(1em),
     calc(100% - 15px) calc(1em),
@@ -288,8 +286,6 @@ button.emoji-button-favorite{
 .navigation {
   display: flex;
   list-style-type: none;
-  
-  
 }
   .navli {
     opacity: 1;
@@ -297,9 +293,7 @@ button.emoji-button-favorite{
     color: white;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    padding-right: 60px
-    
-    ;
+    padding-right: 60px;
   }
 
 .logoWrapper {
@@ -312,8 +306,106 @@ button.emoji-button-favorite{
   align-items: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  color: white;
+  color: rgb(175, 2, 2);
+  font-weight: bold;
 }
 .nav:hover {
-  color: #ea4f4c;
+  color: white;
+}
+.homeinfo {
+  text-indent: 25px;
+  letter-spacing: .5px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  margin-top: 30px;
+  line-height: 150%;
+}
+.redSpan {
+  color: #b20404;
+}
+.exdiv {
+  margin-left: 165px;
+  margin-top: 20px;
+  width: 70%;
+  background-image: url("../public/images/lat.png");
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thick solid rgb(55, 50, 50);
+  border-radius: 9px;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: multiply;
+  background-color: #f80606;
+}
+.exdiv2 {
+  margin-left: 165px;
+  margin-top: 50px;
+  width: 70%;
+  background-image: url("../public/images/bench.jpg");
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thick solid rgb(55, 50, 50);
+  border-radius: 9px;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: multiply;
+  background-color: #a20606;
+}
+.exdiv2 {
+  margin-left: 165px;
+  margin-top: 50px;
+  width: 70%;
+  background-image: url("../public/images/bench.jpg");
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thick solid rgb(55, 50, 50);
+  border-radius: 9px;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: multiply;
+  background-color: #a20606;
+}
+.exdiv3 {
+  margin-left: 165px;
+  margin-top: 50px;
+  width: 70%;
+  background-image: url("../public/images/legs.jpg");
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thick solid rgb(55, 50, 50);
+  border-radius: 9px;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: multiply;
+  background-color: #8c0404;
+}
+.exdiv4 {
+  margin-left: 165px;
+  margin-top: 50px;
+  width: 70%;
+  background-image: url("../public/images/triextens.jpg");
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thick solid rgb(55, 50, 50);
+  border-radius: 9px;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: multiply;
+  background-color: #a20606;
 }
