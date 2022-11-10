@@ -1,4 +1,6 @@
 import React from 'react'
+import Videos from './Videos'
+import { NavLink } from "react-router-dom";
 import image1 from "./srcPics/darkarm.png"
 import image2 from "./srcPics/lightarm.jpg"
 
@@ -25,13 +27,16 @@ function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
             .then((r) => r.json())
             .then(handleFavorites)
     }
+    function videos(){
+
+    }
 
     return (
         <li className="card">
             <img src={image} alt={name} />
             <h4>{name}</h4>
             <p>Body Part: {bodypart}</p>
-            <button className='cardbtn'>Video</button>
+            <button className='cardbtn'> <NavLink className="nav" to="/Videos"><Videos/></NavLink></button>
             <button className='cardbtn' onClick={onClickDelete}>Delete</button>
             <div className="favorites" >
                 {isFavorited ? (

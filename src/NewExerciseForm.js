@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function NewExerciseForm({ handleAddExercise }) {
+function NewExerciseForm({ handleAddExercise, setShowForm, showForm }) {
   const [name, setName] = useState("")
   const [image, setImage] = useState("")
   const [bodyPart, setBodyPart] = useState("")
@@ -26,7 +26,7 @@ function NewExerciseForm({ handleAddExercise }) {
   }
 
   return (
-    <div className="new-exercises-form">
+    <div className="new-exercises-form" >
       <h2>New Exercise</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -51,6 +51,7 @@ function NewExerciseForm({ handleAddExercise }) {
           onChange={(e) => setBodyPart(e.target.value)}
         />
         <button className='form' type="submit">Add Exercise</button>
+        <button className='form' type="hide" onClick={(e)=>setShowForm(!showForm)}>Hide</button>
       </form>
     </div>
   );

@@ -7,6 +7,7 @@ import Search from './Search'
 function ExercisesPage({ exercisesArray, setExercisesArray }) {
   const [searchTerm, setSearchTerm] = useState("")
   const [filterBy, setFilterBy] = useState("")
+  const [showForm, setShowForm] = useState(false)
 
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
@@ -29,12 +30,20 @@ function ExercisesPage({ exercisesArray, setExercisesArray }) {
       e.id === updateExercise.id ? updateExercise : e)
     setExercisesArray(updateExercises)
   }
+  function showExerciseForm(){
+    setShowForm(!showForm)
+  }
 
   return (
     <main>
-      <NewExerciseForm handleAddExercise={handleAddExercise} />
+      <div className='uidiv'>
+      {showForm ? <NewExerciseForm 
+      handleAddExercise={handleAddExercise} 
+      showForm={showForm} 
+      setShowForm={setShowForm}  /> : <button className='showformbtn' onClick={showExerciseForm}>Add Exercise Form</button>}
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} filterBy={filterBy} setFilterBy={setFilterBy} />
       <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} handleFavorites={handleFavorites} />
+      </div>
     </main>
   )
 }

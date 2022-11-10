@@ -6,7 +6,7 @@ function Search({ searchTerm, setSearchTerm, setFilterBy, filterBy }) {
         setSearchTerm(e.target.value)
     }
 
-    function handleFilterChange(e){
+    function handleFilterChange(e) {
         setFilterBy(e.target.value)
     }
 
@@ -17,7 +17,7 @@ function Search({ searchTerm, setSearchTerm, setFilterBy, filterBy }) {
             </div>
             <div className='select' >
                 <select className="Filter" value={filterBy} onChange={handleFilterChange}>
-                <option value="">Select Muscle</option>
+                    <option value="">Select Muscle</option>
                     <option value="Back">Back</option>
                     <option value="Biceps">Biceps</option>
                     <option value="Calves">Calves</option>

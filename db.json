@@ -117,21 +117,21 @@
       "name": "Shoulder Raises",
       "image": "./images/shoulders/raises.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "id": 18,
       "name": "Shoulder Press",
       "image": "./images/shoulders/press.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "id": 19,
       "name": "Rear Delt Fly",
       "image": "./images/shoulders/rear.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": true
     },
     {
       "id": 20,
@@ -222,13 +222,6 @@
       "name": "Standing Calf Raise",
       "image": "./images/calves/calves.jpg",
       "bodypart": "Calves",
-      "isFavorited": false
-    },
-    {
-      "name": "asdf",
-      "image": "asdfas",
-      "bodyPart": "sadfasdf",
-      "id": 33,
       "isFavorited": false
     }
   ]

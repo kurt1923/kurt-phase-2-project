@@ -6,6 +6,7 @@ import Home from "./Home";
 import NavBar from "./NavBar"
 import Favorites from "./Favorites";
 import Splits from "./Splits";
+import Videos from "./Videos";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ExercisesPage" element={<ExercisesPage exercisesArray={exercisesArray} setExercisesArray={setExercisesArray} />} />
         <Route path="/Favorites" element={<Favorites exercisesArray={exercisesArray} />} />
+        <Route path="/Videos" element={<Videos/>} />
         <Route path="/Splits" element={<Splits/>} />
       </Routes>
     </div>
