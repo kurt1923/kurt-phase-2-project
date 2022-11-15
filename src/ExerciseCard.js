@@ -27,10 +27,7 @@ function ExerciseCard({ exercise, onDeleteExercise, handleFavorites }) {
             .then((r) => r.json())
             .then(handleFavorites)
     }
-    function videos(){
-
-    }
-
+   
     return (
         <li className="card">
             <img src={image} alt={name} />
