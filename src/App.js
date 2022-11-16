@@ -11,7 +11,9 @@ import Videos from "./Videos";
 function App() {
 
   const [exercisesArray, setExercisesArray] = useState([])
+  const [showVid, setShowVid] = useState("")
 
+console.log(showVid)
   useEffect(() => {
     fetch("http://localhost:3000/exercises")
       .then((r) => r.json())
@@ -26,10 +28,12 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ExercisesPage" element={<ExercisesPage exercisesArray={exercisesArray} setExercisesArray={setExercisesArray} />} />
+        <Route path="/ExercisesPage" element={<ExercisesPage exercisesArray={exercisesArray}
+          setExercisesArray={setExercisesArray} 
+          showVid={showVid} setShowVid={setShowVid} />} />
         <Route path="/Favorites" element={<Favorites exercisesArray={exercisesArray} />} />
-        <Route path="/Videos" element={<Videos/>} />
-        <Route path="/Splits" element={<Splits/>} />
+        <Route path="/Videos" element={<Videos showVid={showVid}/>} />
+        <Route path="/Splits" element={<Splits />} />
       </Routes>
     </div>
   );

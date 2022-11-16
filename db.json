@@ -5,224 +5,256 @@
       "name": "Cybex Chest Press",
       "image": "./images/chest/cybex2.jpg",
       "bodypart": "Chest",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "jX5uOMaSC4g"
     },
     {
       "id": 2,
       "name": "Dumbell Incline",
       "image": "./images/chest/dbinc.jpg",
       "bodypart": "Chest",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "j8G9ycoySfA"
     },
     {
       "id": 3,
       "name": "Pec Deck",
       "image": "./images/chest/pecdeck.jpg",
       "bodypart": "Chest",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "XjD5ee9sOhM"
     },
     {
       "id": 4,
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
       "bodypart": "Chest",
-      "isFavorited": true
+      "isFavorited": false,
+      "videos": "k-crw1aHBtQ"
     },
     {
       "id": 5,
       "name": "Lat Pulldown",
       "image": "./images/back/latpulldown.jpg",
       "bodypart": "Back",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "Z_3xHwuO8Tk"
     },
     {
       "id": 6,
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
       "bodypart": "Back",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "kzIB-EVQJs8"
     },
     {
       "id": 7,
       "name": "T Bar Row",
       "image": "./images/back/tbarrow.jpg",
       "bodypart": "Back",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "KDEl3AmZbVE"
     },
     {
       "id": 8,
       "name": "Cable Pullover",
       "image": "./images/back/cablepullover.jpg",
       "bodypart": "Back",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "hKrPaheywB8"
     },
     {
       "id": 9,
       "name": "Cable Curls",
       "image": "./images/bis/cablec.jpg",
       "bodypart": "Biceps",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "NFzTWp2qpiE"
     },
     {
       "id": 10,
       "name": "Preacher Curls",
       "image": "./images/bis/preacher.jpg",
       "bodypart": "Biceps",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "vngli9UR6Hw"
     },
     {
       "id": 11,
       "name": "Hammer Curls",
       "image": "./images/bis/hammer.jpg",
       "bodypart": "Biceps",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "zBYTGcoU2tE"
     },
     {
       "id": 12,
       "name": "Ez Bar Curls",
       "image": "./images/bis/ezbar.jpg",
       "bodypart": "Biceps",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "6LrOTcr595A"
     },
     {
       "id": 13,
       "name": "Cable Kickbacks",
       "image": "./images/tris/trikb.jpg",
       "bodypart": "Triceps",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "ZvF4Oi_6Vtg"
     },
     {
       "id": 14,
       "name": "Dips",
       "image": "./images/tris/dips.jpg",
       "bodypart": "Triceps",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "flmMqsi3rl0"
     },
     {
       "id": 15,
       "name": "Tricep Pushdown",
       "image": "./images/tris/triextens.jpg",
       "bodypart": "Triceps",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "GCa8Q4e7laU"
     },
     {
       "id": 16,
       "name": "Tricep OH Extension",
       "image": "./images/tris/ohtri.jpg",
       "bodypart": "Triceps",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "0h0hHCZEqQw"
     },
     {
       "id": 17,
       "name": "Shoulder Raises",
       "image": "./images/shoulders/raises.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "j8GJCKuMIYI"
     },
     {
       "id": 18,
       "name": "Shoulder Press",
       "image": "./images/shoulders/press.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "0JfYxMRsUCQ"
     },
     {
       "id": 19,
       "name": "Rear Delt Fly",
       "image": "./images/shoulders/rear.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": true
+      "isFavorited": true,
+      "videos": "73WpaOMnhSUg"
     },
     {
       "id": 20,
       "name": "Anterior Raise",
       "image": "./images/shoulders/ant.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "DiNYcgchguo"
     },
     {
       "id": 21,
       "name": "Cable Raise",
       "image": "./images/shoulders/cblraise.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "PPrzBWZDOhA"
     },
     {
       "id": 22,
       "name": "Face Pulls",
       "image": "./images/shoulders/face.jpg",
       "bodypart": "Shoulders",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "V8dZ3pyiCBo"
     },
     {
       "id": 23,
       "name": "RDL",
       "image": "./images/ham/rdl.jpg",
       "bodypart": "Hamstrings",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "cVlQZig6g-U"
     },
     {
       "id": 24,
-      "name": "Lying Leg Raise",
+      "name": "Lying Leg Curl",
       "image": "./images/ham/lying.jpg",
       "bodypart": "Hamstrings",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "vl5nUdE9mWM"
     },
     {
       "id": 25,
-      "name": "Seated Leg Raise",
+      "name": "Seated Leg Curl",
       "image": "./images/ham/std.jpg",
       "bodypart": "Hamstrings",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "oFxEDkppbSQ"
     },
     {
       "id": 26,
       "name": "Glute Ham Raise",
       "image": "./images/ham/GH.jpg",
       "bodypart": "Hamstrings",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "w_7UaXfsbaw"
     },
     {
       "id": 27,
       "name": "Leg Press",
       "image": "./images/quads/legs.jpg",
       "bodypart": "Quads",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "W1SD96lrudY"
     },
     {
       "id": 28,
       "name": "Hack Squat",
       "image": "./images/quads/hack.jpg",
       "bodypart": "Quads",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "0tn5K9NlCfo"
     },
     {
       "id": 29,
       "name": "Leg Extension",
       "image": "./images/quads/legext.jpg",
       "bodypart": "Quads",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "KO0-I-JAi8Q"
     },
     {
       "id": 30,
       "name": "Lunge",
       "image": "./images/quads/lunge.jpg",
       "bodypart": "Quads",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "FPtK73X7p9c"
     },
     {
       "id": 31,
       "name": "Seated Calf Raise",
       "image": "./images/calves/soleus.jpg",
       "bodypart": "Calves",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "xz7sqxaJ-Ck"
     },
     {
       "id": 32,
       "name": "Standing Calf Raise",
       "image": "./images/calves/calves.jpg",
       "bodypart": "Calves",
-      "isFavorited": false
+      "isFavorited": false,
+      "videos": "K_jsGgztcGU"
     }
   ]
 }

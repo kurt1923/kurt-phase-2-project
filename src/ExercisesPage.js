@@ -4,10 +4,11 @@ import ExerciseList from './ExerciseList.js'
 import Search from './Search'
 
 
-function ExercisesPage({ exercisesArray, setExercisesArray }) {
+function ExercisesPage({ exercisesArray, setExercisesArray, showVid, setShowVid }) {
   const [searchTerm, setSearchTerm] = useState("")
   const [filterBy, setFilterBy] = useState("")
   const [showForm, setShowForm] = useState(false)
+  
 
 
   const exercisesToDisplay = exercisesArray.filter((e) =>
@@ -42,7 +43,12 @@ function ExercisesPage({ exercisesArray, setExercisesArray }) {
       showForm={showForm} 
       setShowForm={setShowForm}  /> : <button className='showformbtn' onClick={showExerciseForm}>Add Exercise Form</button>}
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} filterBy={filterBy} setFilterBy={setFilterBy} />
-      <ExerciseList exercisesArray={filteredExercises} handleDeleteExercise={handleDeleteExercise} handleFavorites={handleFavorites} />
+      <ExerciseList 
+      exercisesArray={filteredExercises} 
+      handleDeleteExercise={handleDeleteExercise} 
+      handleFavorites={handleFavorites} 
+      showVid={showVid}
+      setShowVid={setShowVid} />
       </div>
     </main>
   )
