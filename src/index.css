@@ -452,7 +452,7 @@ button.emoji-button-favorite {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   grid-gap: 20px;
-  background: black;
+  background: rgb(38, 38, 38);
   gap: 2rem;
   margin-inline: auto;
   width: min(95%, 70rem);
@@ -461,23 +461,28 @@ button.emoji-button-favorite {
   margin-left: 230px;
   margin-top: 50px;
   text-align: justify;
+  max-width: 56%;
+  padding: 3%;
+  border: thin solid rgb(120, 5, 5);
+  border-radius: 4px;
+
   
 }
 .grid-item1 {
-  background-color: black;
+  background-color: rgb(38, 38, 38);;
   width: 100%;
 
 }
 .grid-item2 {
-  background-color: black;
+  background-color: rgb(38, 38, 38);;
   width: 100%;
 }
 .grid-item3 {
-  background-color: black;
+  background-color: rgb(38, 38, 38);;
   width: 100%;
 }
 .grid-item4 {
-  background-color: black;
+  background-color: rgb(38, 38, 38);;
   width: 100%;
 }
 .h1-split {

@@ -4,10 +4,10 @@ function NewExerciseForm({ handleAddExercise, setShowForm, showForm }) {
   const [name, setName] = useState("")
   const [image, setImage] = useState("")
   const [bodyPart, setBodyPart] = useState("")
-
+  const [videos, setVideos] = useState("")
 
   function handleSubmit(e) {
-    const formData = { name, image, bodyPart}
+    const formData = { name, image, bodyPart, videos }
     e.preventDefault()
     fetch("http://localhost:3000/exercises", {
       method: "POST",
@@ -22,6 +22,7 @@ function NewExerciseForm({ handleAddExercise, setShowForm, showForm }) {
         setName("")
         setImage("")
         setBodyPart("")
+        setVideos("")
       })
   }
 
@@ -50,8 +51,15 @@ function NewExerciseForm({ handleAddExercise, setShowForm, showForm }) {
           value={bodyPart}
           onChange={(e) => setBodyPart(e.target.value)}
         />
+        <input
+          type="text"
+          name="videos"
+          placeholder="Youtube (/ID only) "
+          value={videos}
+          onChange={(e) => setVideos(e.target.value)}
+        />
         <button className='form' type="submit">Add Exercise</button>
-        <button className='form' type="hide" onClick={(e)=>setShowForm(!showForm)}>Hide</button>
+        <button className='form' type="hide" onClick={(e) => setShowForm(!showForm)}>Hide</button>
       </form>
     </div>
   );
