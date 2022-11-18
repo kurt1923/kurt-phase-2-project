@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Bro Splits Pro #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application built to assist users in planning hypertrophy based exercise splits.
 
-## Available Scripts
+## Description ##
 
-In the project directory, you can run:
+Bro Splits Pro is a web application created for all you exercise enthusiasts out there. Bro Splits is a encyclopedia of my favorite weighttlifting exercises for muscular hypertrophy. The application lets users view the exercises by searching or filtering a specific body part. If the user wants to add exercsises there is a form to do so. If users are not happy with certain exercises they can delete them from their exercise inventory. Users are able to add their favorite exercises by clicking on the favorite buttons on the exercise page. They can then view their favorite exercises on the favorites page. The application also shows split examples so when it is time to hit the weights, the user can refer to the split they choose and plug in their favorite exercises to work out with. If the user is unsure of how to do the exercise, they can click on the video button and will be shown the corresponding video on the videos page. Below are some pictures illustrating the apps use. 
 
-### `npm start`
+Getting Started
+Dependencies
+Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+ex. Windows 10
+Installing
+How/where to download your program
+Any modifications needed to be made to files/folders
+Executing program
+How to run the program
+Step-by-step bullets
+code blocks for commands
+Help
+Any advise for common problems or issues.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+command to run if program contains helper info
+Authors
+Contributors names and contact info
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ex. Dominique Pizzie
+ex. @DomPizzie
 
-### `npm test`
+Version History
+0.2
+Various bug fixes and optimizations
+See commit change or See release history
+0.1
+Initial Release
+License
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acknowledgments
+Inspiration, code snippets, etc.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+awesome-readme
+PurpleBooth
+dbader
+zenorocha
+fvcproductions
