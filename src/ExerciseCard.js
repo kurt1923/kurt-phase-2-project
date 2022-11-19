@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import image1 from "./srcPics/darkarm.png"
 import image2 from "./srcPics/lightarm.jpg"
 
-function ExerciseCard({ exercise, onDeleteExercise, handleFavorites, showVid, setShowVid }) {
+function ExerciseCard({ exercise, onDeleteExercise, handleFavorites, setShowVid }) {
 
     const { image, name, bodypart, id, isFavorited, videos } = exercise
 

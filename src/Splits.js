@@ -13,10 +13,10 @@ function Splits() {
       <h1 className='h1-split'>Split Examples</h1>
       <div className='grid-container'>
         <p style={{textIndent:45}}> These are a few split examples for programming your lifts into your workouts. There are 
-          pros and cons to each split. Some pros to the Once a week split is longer rest periods for 
-          recovery. The push and pull style workouts hit body parts more frequently and have higher 
-          total volume but have less set volume in workouts. I recommend the upper lower style for 
-          novice lifters who are getting used to the exercises. The better you become at them, the 
+          pros and cons to each split. The biggest pro to the once a week split is a longer rest periods for 
+          recovery. This is important when you are having very strenuous workouts. The push and pull style workouts hit
+          body parts more frequently and have higher total volume but have less set volume in workouts. I recommend 
+          the upper lower style for novice lifters who are getting used to the exercises. The better you become at them, the 
           more likely a lifter would need extended recovery time between lifts. </p>
         <div className='grid-item1' onClick={(e) => setShow1(!show1)}>
 

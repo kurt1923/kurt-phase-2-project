@@ -40,7 +40,7 @@ function Home() {
       </SplideSlide>
       <SplideSlide>
       <div className="navli">
-        <NavLink className="nav" to="/Favorites">
+        <NavLink className="nav" to="/Videos">
           <div className='exdiv3'>
             <br />
             <br />

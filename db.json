@@ -29,7 +29,7 @@
       "name": "Hammer Decline",
       "image": "./images/chest/hammerdecline.jpg",
       "bodypart": "Chest",
-      "isFavorited": false,
+      "isFavorited": true,
       "videos": "k-crw1aHBtQ"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Bent Over Row",
       "image": "./images/back/bentoverrow.jpg",
       "bodypart": "Back",
-      "isFavorited": true,
+      "isFavorited": false,
       "videos": "kzIB-EVQJs8"
     },
     {
