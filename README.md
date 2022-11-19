@@ -16,7 +16,7 @@ Bro Splits Pro is a web application created for all you exercise enthusiasts out
 Adding an exercise is as simple as adding the exercise name and body part just as it is spelled in the drop down filter. Instructions for adding pictures and video are below. 
 
 ## Google Images ##
-When adding exercises to your form, try and format 16 by 9 pictures before adding to form. 
+When adding exercises to your form, try and format 16 by 9 pictures before adding to form. This will help the pictures and formatting come in cleaner.
 
 ## YouTube Videos ##
 I used a lot of my favorite YouTube fitness streamers. Make sure to like and subscribe to support their pages. For adding your own YouTube Videos make sure to only paste the mebedded ID into the form. The embedded ID is the last part of the URL.
